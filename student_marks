@@ -1,0 +1,30 @@
+package marksheet;
+
+public class student_marks {
+	String name = "Raju";
+	int roll_no = 12657;
+	double physics =69;
+	double chemistry = 78;
+	double biology =54;
+	double mathematics =76;
+	double english= 54;
+	
+	double add() {
+		double total = physics+chemistry+biology+mathematics+english;
+		System.out.print("Name of student  = "+name);
+		System.out.println("          Roll no of student = "+roll_no);
+		System.out.println("");
+	
+		
+		System.out.println("1. physics      = "+physics);
+		System.out.println("2. chemistry    = "+chemistry);
+		System.out.println("3. bilogy       = "+biology);
+		System.out.println("4. mathematics  = "+mathematics);
+		System.out.println("5. english      = "+english);
+		System.out.println("");
+		System.out.println("Total Marks     = "+total);
+		return total;
+	}
+	
+
+}
