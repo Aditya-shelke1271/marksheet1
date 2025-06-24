@@ -1,0 +1,13 @@
+package marksheet;
+
+public class multiply {
+	void average() {
+	student_marks multi = new student_marks();
+
+	double avg =multi.add();
+	double percentage =avg*100/500;
+	System.out.println("Percentage is = "+percentage);
+	
+	}
+
+}
